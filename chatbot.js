@@ -20,10 +20,10 @@
 
     function sendMessage() {
         const userMessage = document.getElementById('user-input').value;
-        displayMessage(userMessage, 'User');
+        displayMessage(userMessage, 'You');
 
         const botResponse = getResponse(userMessage);
-        displayMessage(botResponse, 'Chatbot');
+        displayMessage(botResponse, 'EteroAI');
 
         // Clear the user input after sending the message
         document.getElementById('user-input').value = '';
