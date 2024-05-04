@@ -23,7 +23,7 @@ function getResponse(message) {
       displayMessage(userMessage, 'You');
 
       const botResponse = getResponse(userMessage);
-      displayMessage(botResponse, 'EteroAI');
+      displayMessage(botResponse, 'Etero');
 
       // Clear the user input after sending the message
       document.getElementById('user-input').value = '';
